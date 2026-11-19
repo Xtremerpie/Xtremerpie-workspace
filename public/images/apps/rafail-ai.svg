@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="rafailBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e1828" />
+      <stop offset="100%" stop-color="#0a0a14" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2c2" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#946f1e" />
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7385" />
+      <stop offset="100%" stop-color="#e63946" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Container -->
+  <rect x="8" y="8" width="104" height="104" rx="26" fill="url(#rafailBg)" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+  <!-- Neural Synapse Ring -->
+  <polygon points="60,26 88,44 88,76 60,94 32,76 32,44" 
+           stroke="rgba(212, 175, 55, 0.3)" 
+           stroke-width="1.5" 
+           stroke-dasharray="4,4" />
+
+  <!-- Connecting Nodes -->
+  <circle cx="60" cy="26" r="3" fill="url(#crimsonGrad)" filter="url(#glow)" />
+  <circle cx="88" cy="44" r="2.5" fill="url(#goldGrad)" />
+  <circle cx="88" cy="76" r="3" fill="url(#crimsonGrad)" filter="url(#glow)" />
+  <circle cx="60" cy="94" r="2.5" fill="url(#goldGrad)" />
+  <circle cx="32" cy="76" r="3" fill="url(#crimsonGrad)" filter="url(#glow)" />
+  <circle cx="32" cy="44" r="2.5" fill="url(#goldGrad)" />
+
+  <!-- Central Quantum AI Spark / Core -->
+  <path d="M60 36 C60 48, 48 60, 36 60 C48 60, 60 72, 60 84 C60 72, 72 60, 84 60 C72 60, 60 48, 60 36 Z" 
+        fill="url(#goldGrad)" 
+        filter="url(#glow)" 
+        opacity="0.9" />
+
+  <!-- Core Pupil -->
+  <circle cx="60" cy="60" r="4.5" fill="#ffffff" filter="url(#glow)" />
+  <circle cx="60" cy="60" r="2.2" fill="url(#crimsonGrad)" />
+</svg>

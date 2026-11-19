@@ -1,0 +1,72 @@
+declare module "lucide-react" {
+  import * as React from "react";
+  export interface LucideProps extends React.SVGProps<SVGSVGElement> {
+    size?: string | number;
+    color?: string;
+    strokeWidth?: string | number;
+    className?: string;
+  }
+  export type LucideIcon = React.ForwardRefExoticComponent<
+    React.PropsWithoutRef<LucideProps> & React.RefAttributes<SVGSVGElement>
+  >;
+  export const ArrowRight: LucideIcon;
+  export const ArrowLeft: LucideIcon;
+  export const ArrowDown: LucideIcon;
+  export const Download: LucideIcon;
+  export const ChevronDown: LucideIcon;
+  export const ChevronLeft: LucideIcon;
+  export const ChevronRight: LucideIcon;
+  export const Check: LucideIcon;
+  export const Copy: LucideIcon;
+  export const AlertCircle: LucideIcon;
+  export const AlertTriangle: LucideIcon;
+  export const Sparkles: LucideIcon;
+  export const ExternalLink: LucideIcon;
+  export const ShieldCheck: LucideIcon;
+  export const ShieldAlert: LucideIcon;
+  export const Shield: LucideIcon;
+  export const Lock: LucideIcon;
+  export const Menu: LucideIcon;
+  export const X: LucideIcon;
+  export const Terminal: LucideIcon;
+  export const Monitor: LucideIcon;
+  export const HardDrive: LucideIcon;
+  export const Calendar: LucideIcon;
+  export const Code2: LucideIcon;
+  export const Globe: LucideIcon;
+  export const Zap: LucideIcon;
+  export const Cpu: LucideIcon;
+  export const Layout: LucideIcon;
+  export const Gamepad2: LucideIcon;
+  export const Target: LucideIcon;
+  export const Compass: LucideIcon;
+  export const Mail: LucideIcon;
+  export const MessageSquare: LucideIcon;
+  export const Send: LucideIcon;
+  export const Bell: LucideIcon;
+  export const Tag: LucideIcon;
+  export const Filter: LucideIcon;
+  export const Grid: LucideIcon;
+  export const Layers: LucideIcon;
+  export const Bot: LucideIcon;
+  export const Boxes: LucideIcon;
+  export const GitBranch: LucideIcon;
+  export const Music: LucideIcon;
+  export const Minimize2: LucideIcon;
+  export const Moon: LucideIcon;
+  export const Clock: LucideIcon;
+  export const Power: LucideIcon;
+  export const Eye: LucideIcon;
+  export const EyeOff: LucideIcon;
+  export const Network: LucideIcon;
+  export const Workflow: LucideIcon;
+  export const Key: LucideIcon;
+  export const Search: LucideIcon;
+  export const CheckCircle2: LucideIcon;
+  export const HelpCircle: LucideIcon;
+  export const FileCode: LucideIcon;
+  export const Maximize2: LucideIcon;
+  export const Server: LucideIcon;
+  export const Heart: LucideIcon;
+  export const Home: LucideIcon;
+}

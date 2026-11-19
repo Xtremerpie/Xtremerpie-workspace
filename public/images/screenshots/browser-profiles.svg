@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1017" />
+      <stop offset="100%" stop-color="#08090d" />
+    </linearGradient>
+    <linearGradient id="goldAccent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f3d069" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="750" rx="16" fill="url(#bgGrad2)" stroke="rgba(212,175,55,0.25)" stroke-width="2" />
+  <rect x="0" y="0" width="1200" height="48" rx="16" fill="#0b0c12" />
+  <circle cx="28" cy="24" r="6" fill="#e63946" />
+  <circle cx="48" cy="24" r="6" fill="#d4af37" />
+  <circle cx="68" cy="24" r="6" fill="#2a9d8f" />
+  <text x="100" y="30" fill="#e5c158" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Identity & Sandbox Manager — Xtreme AI Browser</text>
+
+  <!-- Profiles Grid -->
+  <rect x="80" y="100" width="1040" height="580" rx="14" fill="#0f111a" stroke="rgba(255,255,255,0.06)" />
+  <text x="120" y="150" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Multi-Identity Compartments</text>
+  <text x="120" y="180" fill="#8e90a6" font-family="system-ui, sans-serif" font-size="13">Each compartment runs with isolated cache, cookies, local storage, and independent network routing.</text>
+
+  <!-- Profile Card 1 -->
+  <rect x="120" y="220" width="300" height="200" rx="12" fill="#141724" stroke="rgba(212,175,55,0.4)" stroke-width="1.5" />
+  <circle cx="160" cy="260" r="18" fill="rgba(212,175,55,0.2)" stroke="#d4af37" />
+  <text x="155" y="265" fill="#d4af37" font-weight="700">D</text>
+  <text x="195" y="265" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Dev & Research</text>
+  <text x="140" y="310" fill="#a0a2b5" font-family="system-ui, sans-serif" font-size="12">Rafail Copilot: Enabled</text>
+  <text x="140" y="335" fill="#a0a2b5" font-family="system-ui, sans-serif" font-size="12">Trackers Blocked: 142</text>
+  <rect x="140" y="360" width="100" height="28" rx="6" fill="url(#goldAccent2)" />
+  <text x="158" y="378" fill="#090a10" font-family="system-ui, sans-serif" font-size="11" font-weight="700">ACTIVE</text>
+
+  <!-- Profile Card 2 -->
+  <rect x="450" y="220" width="300" height="200" rx="12" fill="#141724" stroke="rgba(255,255,255,0.08)" />
+  <circle cx="490" cy="260" r="18" fill="rgba(230,57,70,0.2)" stroke="#e63946" />
+  <text x="485" y="265" fill="#e63946" font-weight="700">P</text>
+  <text x="525" y="265" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Personal & Media</text>
+  <text x="470" y="310" fill="#a0a2b5" font-family="system-ui, sans-serif" font-size="12">Hardware Audio EQ: Active</text>
+  <text x="470" y="335" fill="#a0a2b5" font-family="system-ui, sans-serif" font-size="12">Cookies: Isolated</text>
+  <rect x="470" y="360" width="100" height="28" rx="6" fill="#1e2133" stroke="rgba(255,255,255,0.1)" />
+  <text x="490" y="378" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">SWITCH</text>
+
+  <!-- Profile Card 3 (Incognito Sandbox) -->
+  <rect x="780" y="220" width="300" height="200" rx="12" fill="#141724" stroke="rgba(255,255,255,0.08)" />
+  <circle cx="820" cy="260" r="18" fill="rgba(42,157,143,0.2)" stroke="#2a9d8f" />
+  <text x="815" y="265" fill="#2a9d8f" font-weight="700">G</text>
+  <text x="855" y="265" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Ghost Zero-Trace</text>
+  <text x="800" y="310" fill="#a0a2b5" font-family="system-ui, sans-serif" font-size="12">RAM Cache Only (No Disk)</text>
+  <text x="800" y="335" fill="#a0a2b5" font-family="system-ui, sans-serif" font-size="12">Tor/Socks5 Proxy: Supported</text>
+  <rect x="800" y="360" width="100" height="28" rx="6" fill="#1e2133" stroke="rgba(255,255,255,0.1)" />
+  <text x="820" y="378" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">SWITCH</text>
+</svg>

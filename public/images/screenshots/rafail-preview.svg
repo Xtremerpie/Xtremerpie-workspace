@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" fill="none">
+  <defs>
+    <linearGradient id="rafailBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14111d" />
+      <stop offset="100%" stop-color="#08070e" />
+    </linearGradient>
+    <linearGradient id="rafailGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d47a" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="650" rx="16" fill="url(#rafailBgGrad)" stroke="rgba(212,175,55,0.3)" stroke-width="2" />
+  
+  <rect x="0" y="0" width="1000" height="50" rx="16 16 0 0" fill="#0c0b14" />
+  <circle cx="28" cy="25" r="6" fill="#e63946" />
+  <circle cx="48" cy="25" r="6" fill="#d4af37" />
+  <circle cx="68" cy="25" r="6" fill="#2a9d8f" />
+  <text x="100" y="31" fill="#e5c158" font-family="system-ui, sans-serif" font-size="14" font-weight="700">RAFAIL AI — Intelligent Desktop Environment [Preview Build 0.2.0-dev]</text>
+
+  <!-- HUD Terminal Window -->
+  <rect x="60" y="80" width="880" height="490" rx="12" fill="#0d0c15" stroke="rgba(212,175,55,0.25)" />
+  <rect x="60" y="80" width="880" height="38" rx="12 12 0 0" fill="#151321" />
+  <text x="80" y="104" fill="#8e8ba6" font-family="monospace" font-size="12">terminal://rafail-orchestrator-core</text>
+
+  <text x="90" y="150" fill="#e5c158" font-family="monospace" font-size="14">✦ RAFAIL AI DESKTOP ASSISTANT v0.2.0-dev</text>
+  <text x="90" y="180" fill="#8e8ba6" font-family="monospace" font-size="13">Host: Windows 11 Pro [64-bit] | Architecture: x64 | Engine: Local PyRunner</text>
+  
+  <!-- Simulated Interactive Interaction -->
+  <text x="90" y="230" fill="#ff7385" font-family="monospace" font-size="14">&gt; User Prompt:</text>
+  <text x="210" y="230" fill="#f4f4f7" font-family="monospace" font-size="14">"Summarize today's git commits and format automated changelog"</text>
+
+  <text x="90" y="275" fill="#2a9d8f" font-family="monospace" font-size="13">● Rafail Core:</text>
+  <text x="210" y="275" fill="#a0a2b5" font-family="monospace" font-size="13">Inspecting local git tree in F:\Coding Place\...</text>
+  
+  <rect x="90" y="300" width="820" height="150" rx="8" fill="#141220" stroke="rgba(255,255,255,0.06)" />
+  <text x="110" y="330" fill="#e5c158" font-family="monospace" font-size="12">✓ Found 8 commits across 2 branches</text>
+  <text x="110" y="355" fill="#f4f4f7" font-family="monospace" font-size="12">• Added multi-profile browser tab sandbox matrix</text>
+  <text x="110" y="380" fill="#f4f4f7" font-family="monospace" font-size="12">• Implemented audio cue caching in Awaken background worker</text>
+  <text x="110" y="405" fill="#f4f4f7" font-family="monospace" font-size="12">• Zero tracking telemetry rules compiled (2,840 rules)</text>
+  <text x="110" y="430" fill="#2a9d8f" font-family="monospace" font-size="12">✦ Output written to ./release-notes-draft.md (Took 124ms)</text>
+
+  <!-- Input prompt box -->
+  <rect x="90" y="480" width="820" height="50" rx="8" fill="#1b182b" stroke="rgba(212,175,55,0.4)" stroke-width="1.5" />
+  <text x="115" y="512" fill="#d4af37" font-family="monospace" font-size="16">&gt;</text>
+  <text x="135" y="512" fill="#ffffff" font-family="monospace" font-size="14">Execute local script test_sandbox.py</text>
+  <rect x="420" y="497" width="8" height="18" fill="#e5c158" />
+
+  <text x="60" y="605" fill="#6c6880" font-family="monospace" font-size="12">DEV STATUS: PRIVATE PREVIEW | SHORTCUT: ALT + SPACE | SANDBOX: ENFORCED</text>
+</svg>

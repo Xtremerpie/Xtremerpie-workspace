@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="browserBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#181a29" />
+      <stop offset="100%" stop-color="#0a0b12" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2c2" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#8a671c" />
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b7d" />
+      <stop offset="100%" stop-color="#e63946" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Container -->
+  <rect x="8" y="8" width="104" height="104" rx="26" fill="url(#browserBg)" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+  <!-- Orbital Navigation Ring -->
+  <circle cx="60" cy="60" r="38" stroke="rgba(212, 175, 55, 0.25)" stroke-width="1.5" stroke-dasharray="6,4" />
+  
+  <!-- Outer Satellite Orbital Dots -->
+  <circle cx="86" cy="34" r="3" fill="url(#crimsonGrad)" filter="url(#glow)" />
+  <circle cx="34" cy="86" r="2.5" fill="url(#goldGrad)" />
+
+  <!-- Browser Window Header Bar Line -->
+  <path d="M26 36 L94 36" stroke="rgba(255, 255, 255, 0.15)" stroke-width="2" stroke-linecap="round" />
+  <circle cx="32" cy="30" r="2" fill="url(#crimsonGrad)" />
+  <circle cx="40" cy="30" r="2" fill="url(#goldGrad)" />
+  <circle cx="48" cy="30" r="2" fill="rgba(255,255,255,0.4)" />
+
+  <!-- Central Futuristic AI Compass / Falcon Eye -->
+  <path d="M60 42 L72 60 L60 78 L48 60 Z" fill="rgba(212, 175, 55, 0.15)" stroke="url(#goldGrad)" stroke-width="2" />
+  <path d="M60 42 L60 78" stroke="url(#crimsonGrad)" stroke-width="2" />
+  <circle cx="60" cy="60" r="5" fill="#ffffff" filter="url(#glow)" />
+  <circle cx="60" cy="60" r="2.5" fill="url(#crimsonGrad)" />
+
+  <!-- Dynamic Speed Arc -->
+  <path d="M38 74 C 44 84, 76 84, 82 74" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+</svg>

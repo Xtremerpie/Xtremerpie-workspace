@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="forgeBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c1920" />
+      <stop offset="100%" stop-color="#0a0a10" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2c2" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#946f1e" />
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7385" />
+      <stop offset="100%" stop-color="#e63946" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="104" height="104" rx="26" fill="url(#forgeBg)" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+  <!-- Anvil / Hex Tech Silhouette -->
+  <polygon points="34,42 86,42 78,56 70,56 68,74 78,78 78,84 42,84 42,78 52,74 50,56 42,56" 
+           fill="rgba(212, 175, 55, 0.15)" 
+           stroke="url(#goldGrad)" 
+           stroke-width="2.2" 
+           stroke-linejoin="round" />
+
+  <!-- Hammer / Energy Spark Strike -->
+  <path d="M46 32 L64 48" stroke="url(#crimsonGrad)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="64" cy="48" r="4" fill="#ffffff" filter="url(#glow)" />
+  <circle cx="64" cy="48" r="2" fill="url(#crimsonGrad)" />
+
+  <!-- Spark Rays -->
+  <path d="M68 44 L76 40" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M60 52 L54 58" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M70 54 L78 58" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+</svg>
