@@ -88,7 +88,7 @@ export const apps: AppData[] = [
       "Developers, researchers, and privacy-conscious users seeking an AI-integrated browser with local sandboxing, multiple isolated profiles, and direct desktop automation.",
     logo: "/images/apps/xtreme-browser.svg",
     platform: "Windows 10 / 11 (64-bit)",
-    fileSize: "84.2 MB",
+    fileSize: "116 MB",
     releaseDate: "2024-10-18",
     featured: true,
     githubUrl: "https://github.com/Xtremerpie",
@@ -96,7 +96,7 @@ export const apps: AppData[] = [
       windowsInstaller: {
         label: "Windows Installer (.exe)",
         url: "https://drive.google.com/file/d/1VWsxT9JDZDEbpsg0z3CHcQrLbT5jFoNZ/view?usp=drive_link", // Replace with your Google Drive share or direct link
-        fileSize: "84.2 MB",
+        fileSize: "116 MB",
         checksum: "8f7e2a9b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f",
         format: "exe",
         platform: "windows",
