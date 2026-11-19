@@ -95,7 +95,7 @@ export const apps: AppData[] = [
     downloads: {
       windowsInstaller: {
         label: "Windows Installer (.exe)",
-        url: "PASTE_GOOGLE_DRIVE_LINK_HERE", // Replace with your Google Drive share or direct link
+        url: "https://drive.google.com/file/d/1VWsxT9JDZDEbpsg0z3CHcQrLbT5jFoNZ/view?usp=drive_link", // Replace with your Google Drive share or direct link
         fileSize: "84.2 MB",
         checksum: "8f7e2a9b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f",
         format: "exe",
@@ -267,7 +267,7 @@ export const apps: AppData[] = [
     downloads: {
       windowsInstaller: {
         label: "Windows Download (.exe)",
-        url: "PASTE_GOOGLE_DRIVE_LINK_HERE",
+        url: "https://drive.google.com/file/d/1jNNIWfWup1qVC9fG2QgtwkvEpg9KI12z/view?usp=drive_link",
         fileSize: "24.5 MB",
         checksum: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         format: "exe",
