@@ -89,7 +89,7 @@ export const apps: AppData[] = [
     logo: "/images/apps/xtreme-browser.svg",
     platform: "Windows 10 / 11 (64-bit)",
     fileSize: "116 MB",
-    releaseDate: "2024-10-18",
+    releaseDate: "2026-10-18",
     featured: true,
     githubUrl: "https://github.com/Xtremerpie",
     downloads: {
@@ -195,7 +195,7 @@ export const apps: AppData[] = [
     releases: [
       {
         version: "0.6.0",
-        date: "2024-10-18",
+        date: "2026-06-11",
         isLatest: true,
         highlight: "Rafail AI 2.0 sidebar integration, enhanced multi-profile sandboxing, and reduced memory footprint.",
         changes: [
@@ -214,7 +214,7 @@ export const apps: AppData[] = [
       },
       {
         version: "0.5.2",
-        date: "2024-08-30",
+        date: "2026-08-30",
         highlight: "Stability improvements, enhanced tracker shielding, and quick command palette.",
         changes: [
           "Added Ctrl+K Command Palette for instant navigation and tool toggles.",
@@ -261,7 +261,7 @@ export const apps: AppData[] = [
     logo: "/images/apps/awaken.svg",
     platform: "Windows 10 / 11 (64-bit)",
     fileSize: "24.5 MB",
-    releaseDate: "2024-09-12",
+    releaseDate: "2026-09-12",
     featured: true,
     githubUrl: "https://github.com/Xtremerpie",
     downloads: {
@@ -356,7 +356,7 @@ export const apps: AppData[] = [
     releases: [
       {
         version: "1.0.0",
-        date: "2024-09-12",
+        date: "2026-09-12",
         isLatest: true,
         highlight: "Official stable release with custom media playback and tray minimization.",
         changes: [
