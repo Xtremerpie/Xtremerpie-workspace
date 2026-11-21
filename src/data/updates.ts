@@ -17,7 +17,7 @@ export interface UpdateItem {
 export const updates: UpdateItem[] = [
   {
     id: "update-xtreme-browser-0-6",
-    date: "2024-10-18",
+    date: "2026-10-18",
     title: "Xtreme AI Browser v0.6.0 Released",
     category: "release",
     appId: "xtreme-ai-browser",
@@ -36,7 +36,7 @@ export const updates: UpdateItem[] = [
   },
   {
     id: "update-awaken-1-0",
-    date: "2024-09-12",
+    date: "2026-09-12",
     title: "Awaken v1.0.0 Stable Windows Launch",
     category: "release",
     appId: "awaken",
@@ -55,7 +55,7 @@ export const updates: UpdateItem[] = [
   },
   {
     id: "update-hub-launch",
-    date: "2024-11-19",
+    date: "2026-11-19",
     title: "Official Xtremerpie App Hub Launched",
     category: "announcement",
     summary: "The brand new official software distribution and developer portfolio platform is live.",
@@ -72,7 +72,7 @@ export const updates: UpdateItem[] = [
   },
   {
     id: "update-rafail-devlog-1",
-    date: "2024-11-05",
+    date: "2026-11-05",
     title: "Rafail AI Architecture Devlog: Local Automation",
     category: "devlog",
     appId: "rafail-ai",
