@@ -123,9 +123,9 @@ export const profile: DeveloperProfile = {
   ],
   links: {
     github: "https://github.com/Xtremerpie",
-    email: "contact@xtremerpie.dev", // User can replace this easily
-    discord: "https://discord.gg", // Configurable
-    twitter: "https://x.com", // Configurable
+    email: "xtremerpie@gmail.com", // User can replace this easily
+    discord: "https://discord.gg/3BGt3vqC83", // Configurable
+    twitter: "https://x.com/Xtremerpie", // Configurable
   },
   principles: [
     {
